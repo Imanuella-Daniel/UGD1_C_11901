@@ -1,13 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modul GD 1</title>
+    <title>Profil</title>
     <link rel="stylesheet" href="style_profil_C_11901.css">
     <link rel="stylesheet" href="profil.css">
 
     <style>
+        body{
+            background: linear-gradient(#56ab2f, #a8e063);
+            min-width: 600px;
+            min-height: 600px;
+        }
         img{
             width: 150px;
         }
@@ -16,41 +21,23 @@
         }
         td,
         th{
-            padding: 5px;
+            padding: 15px;
             border: 1px solid;
         }
     </style>
 </head>
 <body>
-    <ul style="list-style-type: square;">
-        <li><a href="GD1_C_1901-1.html">Profil</a></li>
-        <li><a href="GD1_C_1901-2.html">Jadwal</a></li>
-        <li><a href="GD1_C_1901-3.html">Contoh Tag</a></li>
-    </ul>
     <fieldset>
-        <legend>Profil</legend>
-        <hr style="border: dotted;" />
-        <table style="width: auto; margin: 0 auto;">
-            <tr>
-                <th colspan="5">Kontak Orang Keren</th>
-            </tr>
-
-            <tr>
-                <th>Photo</th>
-                <th>Nama</th>
-                <th>Telp</th>
-                <th>Tanggal Lahir</th>
-            </tr>
-
-            <tr>
-                <td>
-                    <img src="D:\2024 Semester 5\Semester 5\PW\Guided\GD1_C_1901\foto 2.jpg" alt="Ini gambar 1.1"/>
-                </td>
-                <td> Imanuella Daniel</td>
-                <td>220711901</td>
-                <td>8-07-2004</td>
-            </tr>
-        </table>
+        <main>
+            <section class="profile">
+                <img src="URL_FOTO" alt="Foto Profil" class="profile-pic">
+                <h2>Nama Anda</h2>
+                <p>NPM: 123456789</p>
+                <p>Tanggal Lahir: DD/MM/YYYY</p>
+                <p>Hobi: Hobi Anda</p>
+                <a href="https://instagram.com/username" class="instagram-button">Instagram</a>
+            </section>
+        </main>
     </fieldset>
 </body>
 </html>

@@ -1,0 +1,43 @@
+.profile {
+    text-align: center;
+    padding: 150px;
+    background: white;
+    border-radius: 15px
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#56ab2f, #a8e063);
+    padding: 500px;
+}
+
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #fff;
+}
+
+.instagram-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background: purple;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.instagram-button:hover {
+    background-color: darkblue;
+}
+
+.horizontal-list {
+    text-align: center;
+    list-style-type: none; /* Menghapus bullet points */         /* Menghapus margin default */
+    display: flex;         /* Mengatur elemen anak (list item) dalam satu baris */
+}
+
+.horizontal-list li {
+    margin-right: 180px;    /* Jarak antar item daftar, bisa disesuaikan */
+}

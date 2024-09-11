@@ -3,27 +3,33 @@
     background: white;
     border-radius: 15px;
     font-size: 30px;
-    padding: 100px;
-    margin: 0 auto;
+    padding: 20px; /* Sesuaikan padding agar tidak membuat ukuran melebihi batas */
+    min-width: 600px;  /* Menetapkan lebar minimal 600px */
+    min-height: 600px; /* Menetapkan tinggi minimal 600px */
+    margin: 0 auto;  /* Memusatkan elemen secara horizontal */
 }
 
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(#56ab2f, #a8e063);;
-    padding: 500px;
-}   
+    background: linear-gradient(#56ab2f, #a8e063);
+    margin: 0; /* Menghapus margin default */
+    display: flex;  /* Menggunakan Flexbox */
+    justify-content: center;  /* Memusatkan konten secara horizontal */
+    align-items: center;  /* Memusatkan konten secara vertikal */
+    height: 100vh;  /* Memastikan body mengisi seluruh tinggi viewport */
+}
 
-.sesi{
+.sesi {
     background-color: bisque;
 }
 
-td, th{
-    pad: 15px;
+td, th {
+    padding: 15px;  /* Memperbaiki typo dari 'pad' menjadi 'padding' */
     text-align: center;
     border: 1px solid;
 }
 
-table{
+table {
     width: 100%;
     border-collapse: collapse;
 }
@@ -36,5 +42,5 @@ table{
 }
 
 .horizontal-list li {
-    margin-right: 180px;  
+    margin-right: 30px;  /* Mengurangi margin untuk elemen daftar */
 }

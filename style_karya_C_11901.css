@@ -1,14 +1,17 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #2193b0, #6dd5ed); /* Gradasi warna untuk background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .karya {
     text-align: center;
     padding: 50px;
     background: white;
     border-radius: 15px
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(#56ab2f, #a8e063);
-    padding: 500px;
 }
 
 
@@ -35,13 +38,38 @@ body {
 
 
 .horizontal-list {
-    display: flex;
-    justify-content: center; /* Memposisikan item di tengah */
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+    text-align: center;
+    list-style-type: none; 
+    display: flex;      
+    justify-content: center;  
 }
 
 .horizontal-list li {
-    margin: 0 50px; /* Memberikan sedikit ruang di antara item */
+    margin-right: 180px;  
+}
+
+
+.jadwal {
+    text-align: center;
+    background: white;
+    border-radius: 15px;
+    font-size: 30px;
+    padding: 100px;
+    margin: 0 auto;
+}
+
+
+.sesi{
+    background-color: bisque;
+}
+
+td, th{
+    pad: 15px;
+    text-align: center;
+    border: 1px solid;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
 }

@@ -1,0 +1,47 @@
+.karya {
+    text-align: center;
+    padding: 50px;
+    background: white;
+    border-radius: 15px
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#56ab2f, #a8e063);
+    padding: 500px;
+}
+
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #fff;
+}
+
+.instagram-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background: purple;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.instagram-button:hover {
+    background-color: darkblue;
+}
+
+
+
+.horizontal-list {
+    display: flex;
+    justify-content: center; /* Memposisikan item di tengah */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.horizontal-list li {
+    margin: 0 50px; /* Memberikan sedikit ruang di antara item */
+}

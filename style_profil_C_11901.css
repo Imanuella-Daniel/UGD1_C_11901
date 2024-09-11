@@ -1,6 +1,6 @@
 .profile {
     text-align: center;
-    padding: 150px;
+    padding: 50px;
     background: white;
     border-radius: 15px
 }
@@ -32,12 +32,15 @@ body {
     background-color: darkblue;
 }
 
+
+
 .horizontal-list {
     text-align: center;
-    list-style-type: none; /* Menghapus bullet points */         /* Menghapus margin default */
-    display: flex;         /* Mengatur elemen anak (list item) dalam satu baris */
+    list-style-type: none; 
+    display: flex;      
+    justify-content: center;  
 }
 
 .horizontal-list li {
-    margin-right: 180px;    /* Jarak antar item daftar, bisa disesuaikan */
+    margin-right: 180px;  
 }

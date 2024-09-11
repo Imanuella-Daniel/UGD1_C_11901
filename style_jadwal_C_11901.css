@@ -1,23 +1,40 @@
 .jadwal {
     text-align: center;
-    padding: 150px;
     background: white;
-    border-radius: 15px
-
+    border-radius: 15px;
+    font-size: 30px;
+    padding: 100px;
+    margin: 0 auto;
 }
 
 body {
     font-family: Arial, sans-serif;
-    background: beige;
-    padding: 50px;
-}
-
-.profile-pic {
-    width: 150px;
-    height: 150px;
-    border: 1px solid #fff;
-}
+    background: linear-gradient(#56ab2f, #a8e063);;
+    padding: 500px;
+}   
 
 .sesi{
-    background-color: purple;
+    background-color: bisque;
+}
+
+td, th{
+    pad: 15px;
+    text-align: center;
+    border: 1px solid;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.horizontal-list {
+    text-align: center;
+    list-style-type: none; 
+    display: flex;      
+    justify-content: center;  
+}
+
+.horizontal-list li {
+    margin-right: 180px;  
 }

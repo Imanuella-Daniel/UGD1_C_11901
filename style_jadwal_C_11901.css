@@ -19,12 +19,23 @@ body {
     height: 100vh;  /* Memastikan body mengisi seluruh tinggi viewport */
 }
 
+
 .sesi {
-    background-color: bisque;
+    background: bisque;
+    padding: 10px;
 }
 
+.matkul:hover {
+    background-color: yellow;
+}
+
+.SesiBG:hover {
+    background-color: blue;
+}
+
+
 td, th {
-    padding: 15px;  /* Memperbaiki typo dari 'pad' menjadi 'padding' */
+    padding: 15px;
     text-align: center;
     border: 1px solid;
 }
@@ -44,3 +55,4 @@ table {
 .horizontal-list li {
     margin-right: 30px;  /* Mengurangi margin untuk elemen daftar */
 }
+

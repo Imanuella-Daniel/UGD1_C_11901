@@ -1,6 +1,5 @@
 .profile {
     text-align: center;
-    padding: 50px;
     background: white;
     border-radius: 15px
 }
@@ -8,7 +7,10 @@
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(#56ab2f, #a8e063);
-    padding: 500px;
+    display: flex;  /* Menggunakan Flexbox */
+    justify-content: center;  /* Memusatkan konten secara horizontal */
+    align-items: center;  /* Memusatkan konten secara vertikal */
+    height: 100vh;  /* Memastikan body mengisi seluruh tinggi viewport */
 }
 
 
@@ -22,17 +24,15 @@ body {
     display: inline-block;
     padding: 10px 20px;
     color: white;
-    background: purple;
+    background: rgb(209, 38, 209);
     text-decoration: none;
     border-radius: 5px;
     font-size: 16px;
 }
 
 .instagram-button:hover {
-    background-color: darkblue;
+    background-color: rgb(119, 119, 170);
 }
-
-
 
 .horizontal-list {
     text-align: center;
@@ -42,5 +42,5 @@ body {
 }
 
 .horizontal-list li {
-    margin-right: 180px;  
+    margin-left: 180px;  
 }

@@ -1,7 +1,7 @@
 body{
     height: 100vh;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     background: linear-gradient(#56ab2f, #a8e063);
     display: flex;
     justify-content: center;
@@ -12,29 +12,30 @@ body{
     text-align: center;
     background: white;
     border-radius: 15px;
-    min-width: 500px;
+    min-width: 400px;
     min-height: 500px;
 }
 
 .poto {
     width: 150px;
     height: 150px;
-    border: 1px solid #fff;
+    border: 2px solid black;
+    display: inline-block;
 }
 
-.instagram_button {
+.tombol {
     display: inline-block;
-    padding: 10px 60px;
+    padding: 8px 100px;
     color: white;
-    background: rgb(209, 38, 209);
+    background: rgb(0, 123, 255);
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 50px;
     font-size: 16px;
     margin-bottom: 20px;
 }
 
-.instagram_button:hover {
-    background-color: rgb(119, 119, 170);
+.tombol:hover {
+    background-color:red;
 }
 
 .link {
@@ -45,7 +46,3 @@ body{
     flex: 1;
     text-align: center;
 }
-
-
-
-

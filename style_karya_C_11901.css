@@ -1,75 +1,84 @@
-body, html {
-    height: 100%;
+body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(45deg, #2193b0, #6dd5ed); /* Gradasi warna untuk background */
+    font-size: 20px;
+    background: linear-gradient(135deg, #000000, #003366, #cc0000);
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .karya {
+    min-width: 600px;
+    min-height: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
     text-align: center;
-    padding: 50px;
-    background: white;
-    border-radius: 15px
 }
 
-
-.profile-pic {
-    width: 150px;
-    height: 150px;
-    border: 1px solid #fff;
-}
-
-.instagram-button {
-    display: inline-block;
-    padding: 10px 20px;
-    color: white;
-    background: purple;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 16px;
-}
-
-.instagram-button:hover {
-    background-color: darkblue;
-}
-
-
-
-.horizontal-list {
-    text-align: center;
-    list-style-type: none; 
-    display: flex;      
-    justify-content: center;  
-}
-
-.horizontal-list li {
-    margin-right: 180px;  
-}
-
-
-.jadwal {
-    text-align: center;
-    background: white;
-    border-radius: 15px;
-    font-size: 30px;
-    padding: 100px;
-    margin: 0 auto;
-}
-
-
-.sesi{
-    background-color: bisque;
-}
-
-td, th{
-    pad: 15px;
-    text-align: center;
-    border: 1px solid;
-}
-
-table{
+table {
     width: 100%;
     border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.poster img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    animation: animasi 2s ease-in-out infinite;
+}
+
+.profil {
+    margin-top: 30px;
+}
+
+.sinopsis {
+    width: 600px;
+    max-height: 600px; 
+    overflow-y: auto;
+    text-align: left;
+    vertical-align: top; 
+}
+
+@keyframes animasi {
+    0% {
+        transform: rotate(0deg); 
+    }
+    50% {
+        transform: rotate(10deg); 
+    }
+    100% {
+        transform: rotate(0deg); 
+    }
+}
+
+
+.Film {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #003366;
+    color: white;
+    text-decoration: none; 
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.Film:hover {
+    background-color: #003360;
+    transform: scale(1.05);
 }
